@@ -1,0 +1,111 @@
+$red: #cf2229;
+
+body {
+  height: 100%;
+  background-color: black;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $red;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../imgs/dropdownitem.png");
+}
+
+.Home {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  h2 {
+    max-width: 45%;
+    color: $red;
+    padding-top: 5vh;
+  }
+  button {
+    color: black;
+    font-weight: bold;
+    border-color: transparent;
+    margin-top: 2vh;
+    width: 200px;
+    height: 50px;
+  }
+}
+
+.web {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  h1 {
+    font-size: 3vw;
+    color: $red;
+  }
+  h2 {
+    font-size: 1.5vw;
+  }
+}
+
+.logo {
+  max-width: 45%;
+  height: auto;
+}
+
+.images {
+  max-width: 40%;
+  min-width: 400px;
+  height: auto;
+}
+
+.images-app3dar {
+  max-width: 30%;
+  min-width: 400px;
+  height: auto;
+}
+
+.CommonNavbar {
+  margin-left: 0.25%;
+  margin-top: 0.25%;
+  width: 99.5%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $red;
+  margin-bottom: 2vh;
+}
+
+.CommonFooter {
+  position: fixed;
+  bottom: 0;
+  margin-left: 0.25%;
+  margin-top: 0.25%;
+  width: 99.5%;
+  height: 8vh;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  img {
+    width: 1.5vw;
+    height: 1.2vw;
+    margin: 0 7vw 0 7vw;
+  }
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+}
